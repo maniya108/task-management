@@ -1,0 +1,81 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "strictNullChecks": true,
+    "paths": {
+      "@controllers": [
+        "src/controllers"
+      ],
+      "@controllers/*": [
+        "src/controllers/*",
+      ],
+      "@entities": [
+        "src/controllers"
+      ],
+      "@entities/*": [
+        "src/entities/*",
+      ],
+      "@services": [
+        "src/shared/services"
+      ],
+      "@services/*": [
+        "src/shared/services/*",
+      ],
+      "@models": [
+        "src/models"
+      ],
+      "@models/*": [
+        "src/models/*",
+      ],
+      "@filters": [
+        "src/shared/filters"
+      ],
+      "@filters/*": [
+        "src/shared/filters/*",
+      ],
+      "@strategies": [
+        "src/shared/strategies"
+      ],
+      "@strategies/*": [
+        "src/shared/strategies/*",
+      ],
+      "@guards": [
+        "src/shared/guards"
+      ],
+      "@guards/*": [
+        "src/shared/guards/*",
+      ],
+      "@pipes": [
+        "src/shared/pipes"
+      ],
+      "@pipes/*": [
+        "src/shared/pipes/*",
+      ],
+      "@interceptors": [
+        "src/shared/interceptors"
+      ],
+      "@interceptors/*": [
+        "src/shared/interceptors/*",
+      ],
+      "@dtos": [
+        "src/dtos"
+      ],
+      "@dtos/*": [
+        "src/dtos/*",
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

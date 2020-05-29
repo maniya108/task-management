@@ -1,0 +1,13 @@
+{
+  "appId": "com.maniya.task",
+  "appName": "task-management",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

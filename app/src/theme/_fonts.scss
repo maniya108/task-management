@@ -1,0 +1,49 @@
+// Renault life font
+@font-face {
+  font-family: "FiraCode Regular";
+  src: url("~assets/fonts/FiraCode-Regular.ttf") format("woff"),
+    url("~assets/fonts/FiraCode-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraCode Light";
+  src: url("~assets/fonts/FiraCode-Light.ttf") format("woff"),
+    url("~assets/fonts/FiraCode-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraCode Medium";
+  src: url("~assets/fonts/FiraCode-Medium.ttf") format("woff"),
+    url("~assets/fonts/FiraCode-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FiraCode Light";
+  src: url("~assets/fonts/FiraCode-Light.ttf") format("woff"),
+    url("~assets/fonts/FiraCode-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraCode SemiBold";
+  src: url("~assets/fonts/FiraCode-SemiBold.ttf") format("woff"),
+    url("~assets/fonts/FiraCode-SemiBold.ttf") format("truetype");
+}
+
+.f-regular {
+  font-family: "FiraCode Regular";
+}
+
+.f-light {
+  font-family: "FiraCode Light";
+}
+
+.f-bold {
+  font-family: "FiraCode Bold";
+}
+
+.f-medium {
+  font-family: "FiraCode Medium";
+}
+
+.f-semibold {
+  font-family: "FiraCode SemiBold";
+}
